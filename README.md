@@ -13,6 +13,14 @@ This project features a modular backend, a comparative model study, and an inter
 
 The goal was to build a "digital twin" that understands how speed, road incline, and temperature impact battery drain. Unlike standard black-box models, this system prioritizes **physical consistency**, ensuring that predictions align with the laws of aerodynamics and thermodynamics.
 
+Data set
+-------------------
+
+The model was trained using **[EV Energy Consumption Dataset](https://www.kaggle.com/datasets/ziya07/ev-energy-consumption-dataset)**
+- **Usability Score**: 8.82/10 
+- **License: CC0**: Public Domain
+
+
 🛠️ Technical Implementation
 ----------------------------
 
