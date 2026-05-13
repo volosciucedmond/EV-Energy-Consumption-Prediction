@@ -59,16 +59,15 @@ During validation, I identified that the training dataset (average efficiency ~6
 *   The **UI** includes a **0.25x calibration factor** toggle. This allows the simulator to provide realistic "passenger BEV" results (~15-20 kWh/100km) while maintaining the physics-based relationships learned from the data.
     
 
-🖥️ Interactive Simulator
--------------------------
+🖥️ Interactive Simulator (V2 Update)
+------------------------------------
 
-The project includes a **Streamlit** dashboard that allows users to:
+The dashboard has been updated to provide deeper analytical insights into EV efficiency:
 
-*   Adjust speed, weight, incline, and temperature via sliders.
-    
-*   Get real-time feedback on trip energy and $CO\_2$ impact.
-    
-*   Receive **Context-Aware Driving Tips** based on their current "driving" style (e.g., aerodynamic advice for high speeds or regen tips for downhills).
+* **📈 Real-Time Efficiency Curve:** Visualizes the "Physics Wall"—showing how energy demand increases exponentially with speed ($v^2$).
+* **⚖️ Dynamic Calibration:** A new toggle allows switching between the raw high-consumption prototype data and a calibrated "Standard Passenger EV" profile.
+* **🌍 Sustainability Benchmarking:** Real-time $CO_2$ savings calculation comparing the current EV simulation against an average petrol car (ICE) benchmark.
+* **💡 Intelligence & Recommendations:** Context-aware tips that react to high drag, steep inclines, or sub-optimal battery temperatures.
     
 
 📂 Project Structure
